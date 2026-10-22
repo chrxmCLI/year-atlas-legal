@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Year Atlas</title>
+<meta name="description" content="How to connect Garmin to Apple Health, import your year, and get help with Year Atlas.">
+<link rel="icon" href="../icon.png">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../icon.png" alt=""><span>Year Atlas</span></a>
+    <nav>
+      <a href="../privacy/">Privacy</a>
+      <a href="../support/">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main class="legal wrap">
+  <p class="kicker">Support</p>
+  <h1>Get your year into view.</h1>
+  <p class="meta">Year Atlas 1.0 · iOS 18 or later</p>
+
+  <h2 id="garmin">Connect Garmin to Apple Health</h2>
+  <p>Year Atlas reads Apple Health. Garmin Connect can write your activity into Apple Health, but the connection is off by default. Turn it on once:</p>
+  <ol>
+    <li>Open the <strong>Garmin Connect</strong> app on your iPhone.</li>
+    <li>Tap <strong>More</strong> (bottom right) → <strong>Settings</strong> → <strong>Connected Apps</strong>.</li>
+    <li>Tap <strong>Apple Health</strong> → <strong>Connect with Apple Health</strong>.</li>
+    <li>Turn on the categories you want to share, especially <strong>Workouts</strong>, <strong>Distance</strong>, <strong>Sleep</strong> and <strong>Heart Rate</strong>.</li>
+    <li>Sync your watch with Garmin Connect, then open Year Atlas and pull to refresh.</li>
+  </ol>
+  <div class="callout">Garmin does not write every metric to Apple Health. GPS tracks, Body Battery, the Garmin sleep score and Garmin HRV are not available through Health. Year Atlas shows what Apple Health has; if a metric is missing, it hides that tab rather than showing an empty chart.</div>
+
+  <h2>Nothing is showing up</h2>
+  <ul>
+    <li>Check that Garmin Connect → Apple Health is connected and the categories are enabled.</li>
+    <li>Open the Health app → Browse → Activity → Workouts and confirm Garmin workouts appear. If they do not, sync your watch in Garmin Connect first.</li>
+    <li>In Year Atlas, open Settings → Refresh from Apple Health.</li>
+    <li>Check iOS Settings → Privacy &amp; Security → Health → Year Atlas and make sure the read categories are allowed.</li>
+    <li>If you still see nothing, use Settings → Look around with sample data to confirm the app itself is working.</li>
+  </ul>
+
+  <h2>Why not the Garmin Personal API?</h2>
+  <p>Garmin's Personal API is intended for an individual's own use and is not intended for commercial applications serving multiple end users. Year Atlas is a consumer app, so it uses the official Garmin Connect → Apple Health connection instead. That keeps your Garmin credentials and API keys out of the app, works with full history, and lets the app stay fully on-device.</p>
+
+  <h2>Poster export</h2>
+  <p>Open a year, tap <strong>Make a poster</strong>, choose a style, then tap <strong>Share poster</strong>. The export is 2480 × 3508 px (A4 at 300 dpi) and can be saved to Photos, printed, or sent. The free version includes a small Year Atlas mark; the one-time Pro unlock removes it and opens all three styles.</p>
+
+  <h2>Restore a purchase</h2>
+  <p>Open Settings → Year Atlas Pro → Restore purchase. Purchases are tied to your Apple ID. If you changed Apple IDs, sign in with the original one first.</p>
+
+  <h2>Privacy</h2>
+  <p>Year Atlas reads Apple Health on your iPhone and keeps the result on your iPhone. No account, no server, no analytics, no advertising. Read the full <a href="../privacy/">privacy policy</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Open an issue at <a href="https://github.com/chrxmCLI/year-atlas-legal/issues">github.com/chrxmCLI/year-atlas-legal/issues</a> and include your iOS version, iPhone model, and what you expected to see.</p>
+
+  <h2>Not affiliated with Garmin</h2>
+  <p>Year Atlas is an independent app. It is not affiliated with, endorsed by, or sponsored by Garmin Ltd. Garmin, Garmin Connect and the Garmin logo are trademarks of Garmin Ltd. Apple, Apple Health and iPhone are trademarks of Apple Inc.</p>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Chris HQ</span>
+    <span><a href="../">Year Atlas</a> · <a href="../privacy/">Privacy</a></span>
+  </div>
+</footer>
+</body>
+</html>
